@@ -91,8 +91,8 @@
                 </div>
                 
                 <div class="post">
-                    <!-- Imagem 2: Motor de carro / oficina mecânica -->
-                    <img src="https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=300&q=80" 
+                    
+                    <img src="imagemblog2.jpeg" 
                          alt="Motor de carro em manutenção"
                          onerror="this.src='https://placehold.co/100x100/d6d687/000000?text=Meme+2'">
                     <div>
@@ -106,20 +106,6 @@
             </article>
         </main>
         
-        <script>
-            // Seleciona todos os botões com a classe btn-emoji
-            const botoes = document.querySelectorAll(".btn-emoji");
-            
-            botoes.forEach(function (botao) {
-                botao.addEventListener("click", function () {
-                    console.log("fui clicado");
-                    const span = botao.querySelector("span");
-                    if (span) {
-                        let contador = parseInt(span.textContent) || 0;
-                        span.textContent = contador + 1;
-                    }
-                });
-            });
-        </script>
+        
     </body>
 </html>
